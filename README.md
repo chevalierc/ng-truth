@@ -28,7 +28,7 @@ angular.module( 'mainCtrl', [] )
                 on_change: "params_refreshed"
             },
             users: {
-                type: "object",
+                type: "array",
                 store_in_url: true,
                 on_change: ["params_refreshed", "user_refreshed"],
                 allow_dupes: false
