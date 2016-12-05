@@ -61,5 +61,6 @@ truth.get("key")
 truth.set("key", val)
 truth.add("key", val)
 truth.remove("key, index)
+truth.update_from_url()
 
 ```
