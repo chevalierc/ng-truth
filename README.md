@@ -64,3 +64,7 @@ truth.remove("key, index)
 truth.update_from_url()
 
 ```
+
+##using with $routeProvider
+
+You will most likly want to use `reloadOnSearch` ofor the `$routeProvider` if you are storing the values in search paramters
